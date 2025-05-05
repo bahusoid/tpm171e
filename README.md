@@ -1,8 +1,8 @@
-# My changes:
+## My changes:
 
 Added github action to build all binaries. Published binaries as release for convinience: https://github.com/bahusoid/tpm171e/releases
 
-## Original content:
+# Original content:
 
 # TPM171E
 
