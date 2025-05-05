@@ -40,20 +40,4 @@ jobs:
     - name: Build Project
       run: make all
 
-    # Upload build artifacts
-    - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: build-artifacts
-        path: |
-          ./cli
-          ./kernelutil
-          ./loader
-          ./patcher
-          ./patcher-payload.so
-          ./getroot.elf
-          ./decrypt
-          ./third_party/apktool/apktool.jar
-          ./third_party/dex2jar/d2j-dex2jar.sh
-          ./third_party/procyon/procyon-decompiler.jar
-          ./third_party/vdexExtractor/bin/vdexExtractor
+
