@@ -1,3 +1,5 @@
+# .github/workflows/go.yml
+
 name: Build and Upload Artifacts
 
 on:
@@ -34,6 +36,10 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.20' # Update to the required Go version
+
+    # Install go-bindata
+    - name: Install go-bindata
+      run: go install github.com/go-bindata/go-bindata/...@latest
 
     # Build using Makefile
     - name: Build Project
