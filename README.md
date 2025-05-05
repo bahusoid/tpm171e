@@ -1,3 +1,9 @@
+# My changes:
+
+Added github action to build all binaries. Published binaries as release for convinience: https://github.com/bahusoid/tpm171e/releases
+
+## Original content:
+
 # TPM171E
 
 This page collects some technical information for the Philips (a.k.a. TPVision)
